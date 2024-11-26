@@ -7,17 +7,18 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer_outer_container">
-      <div className="footer_outer_container">
+      <div className="footer_inner_container">
         <div className="footer_icons">
-          <facebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
+          {/* adding aria-labels to the social media icons for better accessibility. */}
+          <FacebookOutlinedIcon aria-label="Facebook" />{" "}
+          <InstagramIcon aria-label="Instagram" />{" "}
+          <YouTubeIcon aria-label="YouTube" />
         </div>
         <div className="footer_data">
           <div>
             <ul>
               <li>Audio Description</li>
-              <li>Investor Relataions</li>
+              <li>Investor Relations</li>
               <li>Legal Notices</li>
             </ul>
           </div>
@@ -39,7 +40,7 @@ function Footer() {
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
-              <li>Contact Use</li>
+              <li>Contact Us</li>
             </ul>
           </div>
         </div>

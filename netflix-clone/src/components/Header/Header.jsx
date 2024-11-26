@@ -8,12 +8,12 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 function Header() {
   return (
-    <div claassName="header_outer_container">
+    <div className="header_outer_container">
       <div className="header_container">
         <div className="header_left">
           <ul>
             <li>
-              <img src={NetflixLogo} alt="Netflix Logo" width="100" />{" "}
+              <img src={NetflixLogo} alt="Netflix Logo" width="100" />
             </li>
             <li>Netflix</li>
             <li>Home</li>
@@ -26,10 +26,20 @@ function Header() {
         </div>
         <div className="header_right">
           <ul>
-            <li><SearchIcon /></li>
-            <li><NotificationsNoneIcon  /></li>
-             <li><AccountBoxIcon /></li>
-             <li><ArrowDropDownIcon /></li>   
+            {/* adding aria-labels to the icons for better accessibility therby helping
+            screen readers identify the icons' purpose. */}
+            <li>
+              <SearchIcon aria-label="Search" />
+            </li>{" "}
+            <li>
+              <NotificationsNoneIcon aria-label="Notifications" />
+            </li>{" "}
+            <li>
+              <AccountBoxIcon aria-label="Account" />
+            </li>{" "}
+            <li>
+              <ArrowDropDownIcon aria-label="Dropdown" />
+            </li>
           </ul>
         </div>
       </div>
