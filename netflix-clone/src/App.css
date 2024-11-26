@@ -1,11 +1,7 @@
 
-* {
-  margin:0;
-  padding:0;
-}
-
 .App {
   /* text-align: center; */
+  background-color:white;
 }
 /* #root {
   max-width: 1280px;
