@@ -1,0 +1,66 @@
+.banner {
+    margin-top: 10vh; /* Good use of viewport height for top margin */
+    height: 80vh; /* Sets the banner height to 80% of the viewport height */
+    margin-bottom: 80px; /* margin-bottom '80px'  */
+    color: white; /* Sets the text color to white */
+    object-fit: contain; /* Ensures that the content is scaled to maintain its aspect ratio */
+}
+
+.banner_contents {
+    margin-left: 10px; /* Adds a small left margin */
+    padding-top: 300px; /* Adds a large top padding to push content down */
+    /* height: 190px */ /* Commented out height, ensure it's needed */
+}
+
+.banner_title {
+    font-size: 3rem; /* Sets a large font size for the title */
+    font-weight: 800; /* Sets a bold font weight */
+    padding-bottom: 0.3rem; /* padding bottom of 0.3rem */
+}
+
+.banner_description {
+    width: 45rem; /* Sets a fixed width */
+    line-height: 1; /* line height of 1 */
+    padding: 1rem; /* Sets padding to 1 rem  */
+    font-size: 1rem; /* Sets the font size */
+    max-width: 360px; /* Sets the maximum width */
+    height: 80px; /* Sets the fixed height */
+}
+
+.banner_button {
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    color: #fff; /* Sets text color to white */
+    outline: none; /* Removes the outline */
+    border: none; /* Removes the border */
+    font-size: 1.2rem; /* Sets a larger font size */
+    font-weight: 700; /* Sets a bold font weight */
+    border-radius: 0.2vw; /* Rounds the corners */
+    padding: 1rem 3rem; /* Adds padding (1rem top/bottom, 3rem left/right) */
+    margin-right: 2rem; /* Adds right margin */
+    background-color: rgba(51, 51, 51, 0.5); /* Sets a semi-transparent background */
+}
+
+.play {
+    color: #000; /* Sets text color to black */
+    background-color: #fff; /* Sets background color to white */
+}
+
+.banner_button:hover {
+    color: #000; /* Sets text color to black on hover */
+    background-color: #c6c6c6; /* Sets background color to light gray on hover */
+    transition: all 0.2s; /* 'transition: all 0.2s;' for smooth hover transition */
+}
+
+.banner_fadeBottom {
+    height: 40vh; /* Sets height to 40% of the viewport height */
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgb(37, 37, 37, 0.91),
+        #111
+    ); /* Adds a gradient background */
+}
+
+
+
+
