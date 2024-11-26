@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Include the .env file here so that it won't be tracked 
+.env
