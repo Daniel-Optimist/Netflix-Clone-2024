@@ -56,7 +56,7 @@
     background-image: linear-gradient(
         180deg,
         transparent,
-        rgb(37, 37, 37, 0.91),
+        rgba(37, 37, 37, 0.91),
         #111
     ); /* Adds a gradient background */
 }

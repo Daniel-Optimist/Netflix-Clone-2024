@@ -1,26 +1,23 @@
-
-@import url('https://fonts.googleapis.com/css2?family=inter:wght@100;200;300;300;400;500;600;700;800;900&family=lexend:wght@100;200;300;300;400;500;600;700;800;900&display=swap')
-
-:root{
-  --font-base: 'Lexend', sans-serif;
-  --font-second-base: 'Inter', sans-serif;
-  --bg-color: #111;
-  --primary-color: #ffffff;
-  --secondary-color: #e50914;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+/* Importing Google Fonts for 'Inter' and 'Lexend' fonts */
+:root {
+  --font-base: "Lexend", sans-serif; /* Primary font */
+  --font-second-base: "Inter", sans-serif; /* Secondary font */
+  --bg-color: #111; /* Background color */
+  --primary-color: #ffffff; /* Primary color (white) */
+  --secondary-color: #e50914; /* Secondary color (Netflix red) */
 }
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+/* Applying universal styles */
+* {
+  margin: 0; /* Resetting default margin */
+  padding: 0; /* Resetting default padding */
+  box-sizing: border-box; /* Ensuring border-box sizing for all elements */
 }
-body{
+/* styling the body */
+body {
   background: #111;
 }
-
-
-
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import "./banner.css";
 import axios from "../../utils/axios"
 import requests from '../../utils/requests';
-import './banner.css'
+
 
 function Banner() {
     const [movie, setMovie] = useState({});
@@ -24,7 +25,7 @@ function Banner() {
     },[]);
     // function to truncate long strings 
     function truncate (str,n) {
-        return str?.length>n ?str.substr(0,n-1)+ '...':str;
+        return str?.length > n ? str.substr(0, n-1) + '...' : str;
     }
   return (
     <div
@@ -45,7 +46,7 @@ function Banner() {
           <button className="banner_button play"> Play</button>
           <button className="banner_button">My List</button>
         </div>
-        {/* <h1 className="banner_description"> {truncate(movie?.overview,150)}</h1> */}
+        <h1 className="banner_description"> {truncate(movie?.overview,150)}</h1>
       </div>
       <div className="banner_fadeBottom">
 

@@ -1,0 +1,46 @@
+/* row.css */
+/* .row {
+  margin-left: 20px;
+  color: white; 
+  margin-bottom: 20px; 
+}
+.row_title {
+  margin-bottom: 10px; 
+} */
+
+
+.row_poster {
+  width: 100%; /* Sets the width of the poster to 100% of its container */
+  object-fit: contain; /* Scales the image to maintain aspect ratio */
+  max-height: 100px; /* Limits the maximum height of the poster */
+  transition: transform 450ms; /* Smooth transition effect for transform property */
+  margin-right: 10px; /* Adds a margin to the right of the poster */
+}
+
+.row_posters {
+  display: flex; /* Uses flexbox for layout */
+  overflow-y: hidden; /* Hides overflow on the vertical axis */
+  overflow-x: scroll; /* Enables scrolling on the horizontal axis */
+  padding: 20px; /* Adds significant padding (make sure this is intended, seems too large) */
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in WebKit browsers */
+}
+
+.row_poster:hover {
+  transform: scale(1.08); /* Transforms the row slightly on hover (might affect layout, reconsider if necessary) */
+}
+
+.row_posterLarge {
+  max-height: 250px; /* Increases the maximum height for large posters */
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09); /* Slightly scales up the large poster on hover */
+}
+
+.row {
+  margin-left: 20px;
+  color: white; /* Sets the text color to white */
+}
